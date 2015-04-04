@@ -22,9 +22,9 @@ to create a git repository
 $ git init project_name
 
 this creates an empty git repository for your project.
-move your umbrello object in this folder.
+move your umbrello samplemodel in this folder under the .git directory.
 
-$ git add diagram1
+$ git add samplemodel
 
 check the git status
 
@@ -35,12 +35,12 @@ to commit your change to your local repository
 
 
 
-$ git commit diagram1
+$ git commit samplemodel
 
 Now you can easily merge your project in the global repository on github
 
 
-$ git remote add origin https://github.com/umbrellodesign/modelname.git 
+$ git remote add origin https://github.com/umbrellodesign/samplemodel.git 
 
 
 $ git push -u origin master
