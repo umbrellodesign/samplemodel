@@ -27,13 +27,22 @@ move your umbrello object in this folder.
 $ git add diagram1
 
 check the git status
+
+
 $ git status
 
 to commit your change to your local repository
+
+
+
 $ git commit diagram1
 
 Now you can easily merge your project in the global repository on github
+
+
 $ git remote add origin https://github.com/umbrellodesign/modelname.git 
+
+
 $ git push -u origin master
 
 
